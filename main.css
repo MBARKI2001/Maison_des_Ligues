@@ -1,0 +1,139 @@
+/* Réinitialisation des styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.lien-connexion{
+    text-align: center;
+}
+
+.Titre{
+    text-align: center;
+}
+
+.Sous-titre{
+    text-align: center;
+}
+
+.onglets{
+    text-align: center;
+}
+
+
+
+.Texte{
+    text-align: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles pour les onglets */
+.onglets {
+    background-color: #343a40;
+    overflow: hidden;
+    text-align: center;
+}
+
+.onglets a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.onglets a:hover {
+    background-color: #555;
+}
+
+/* Styles pour le titre */
+.titre {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+/* Styles pour le sous-titre */
+.sous-titre {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le texte */
+.texte {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le formulaire */
+.formulaire {
+    max-width: 600px;
+    margin: 0 auto; /* Centrer horizontalement */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire input[type="password"],
+.formulaire textarea,
+.formulaire select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.formulaire input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* -- visualisation des bordures de tableau -- */
+
+table, th, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+  }
+th {
+    background-color: #343a40;
+    color: white;
+}
